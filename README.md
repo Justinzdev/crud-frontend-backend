@@ -4,4 +4,8 @@
 โดยจะใช้ React เป็น front-end และ Node.js เป็น back-end
 
 ## ขั้นตอนการเริ่มใช้งาน
-``` git clone https://github.com/Justinzdev/crud-frontend-backend ```
+``` git clone https://github.com/Justinzdev/crud-frontend-backend
+    cd crud-frontend-backend
+    npm install
+    npm run dev
+```
