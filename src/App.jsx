@@ -1,11 +1,19 @@
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+
+// Components
+import Topbar from './components/Topbar'
+import Lists from './components/Lists'
+import Create from './components/Create'
 
 function App() {
   return (
     <>
-        <div className='bg-amber-400'>
-          <p className='text-[50px] p-5'>test</p>
-        </div>
+        <Topbar />
+        <Routes>
+            <Route path='/' element={<Lists />} />
+            <Route path='/create' element={<Create />} />
+        </Routes>
     </>
   )
 }
